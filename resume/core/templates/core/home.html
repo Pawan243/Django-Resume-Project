@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block corecss %}
+<link rel="stylesheet" href="{% static 'core/css/core.css' %}">
+{% endblock %}
+{% block content %}
+<div class="mt-4">
+  <div class="text-center">
+    <img src="{% static 'core/images/lady.jpg' %}" alt="Profilepic" class="img-thumbnail" width="200px" height="150px">
+  </div>
+  <div class="text-white mt-5 mx-4">
+    <h1 class="font-weight-bold st-fonts">Hello,</h1>
+    <div>
+      <p style="text-indent:100px; line-height:2rem;" class="text-white mx-2 text-justify">
+        I am <b class="text-warning">Pawan Kumar</b>, having an experince with Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe vel incidunt? Molestiae ea error rem!
+        Atque doloremque enim distinctio ullam modi animi consequuntur, nostrum similique impedit saepe, sint unde.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <b class="text-warning">Sequi provident </b> nihil
+        veniam tempore velit est dicta ullam, tenetur iste necessitatibus facilis veritatis quia itaque similique ea ex
+        rem eaque placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum suscipit accusamus ipsam
+        esse quam cupiditate. Nesciunt ipsam id fugit expedita placeat laudantium corrupti, esse consectetur eos labore
+        mollitia rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, modi molestias fugit ipsa ad, ab
+        debitis architecto, alias et facilis quaerat. Unde laudantium similique accusantium aperiam sint itaque sit
+        animi?
+      </p>
+    </div>
+  </div>
+  <div class="text-center">
+    <a href="" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+  <a href="" class="btn btn-outline-info my-3 mr-5">Contact</a>
+  </div>
+</div>
+
+{% endblock %}

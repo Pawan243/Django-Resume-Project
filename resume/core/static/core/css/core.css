@@ -1,0 +1,10 @@
+/* fonts*/
+.st-fonts{
+    font-family: 'Satisfy', cursive;
+}
+html, body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+} 

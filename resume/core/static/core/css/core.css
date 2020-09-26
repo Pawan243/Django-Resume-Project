@@ -8,3 +8,6 @@ html, body{
 .container-fluid{
     min-height: 100%;
 } 
+.fa-color{
+    color:greenyellow;
+}

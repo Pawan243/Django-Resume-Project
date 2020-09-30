@@ -1,0 +1,66 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block corecss %}
+<link rel="stylesheet" href="{% static 'core/css/core.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <h1 class="text-warning border-bottom mb-5 mt-4">Skills</h1>
+    <div class="row text-white">
+        <div class="col-sm-5">
+            <h3 class="mt-4">HTML/CSS</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100%">100%</div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-1">
+            <h3 class="mt-4">Javascript</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-secondary" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100%">95%</div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col-sm-5">
+            <h3 class="mt-4">C Programming</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100%">100%</div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-1">
+            <h3 class="mt-4">Python</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100%">95%</div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col-sm-5">
+            <h3 class="mt-4">Java Programming</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100%">90%</div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-1">
+            <h3 class="mt-4">Django</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100%">95%</div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col-sm-5">
+            <h3 class="mt-4">JQuery</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100%">80%</div>
+            </div>
+        </div>
+        <div class="col-sm-5  offset-sm-1">
+            <h3 class="mt-4">Bootstrap 4</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped bg-dark" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100%">90%</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

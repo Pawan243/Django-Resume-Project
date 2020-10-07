@@ -1,16 +1,16 @@
-{% load static %}
+{% load static %}           
 <div class="border-right border-waring h-100">
     <div class="text-center">
-        <img src="{% static 'core/images/lady.jpg' %}" alt="ProfilePic" class="img-fluid rounded-circle mt-5 "
+        <img src="{% static 'core/images/man.png' %}" alt="ProfilePic" class="img-fluid rounded-circle mt-5 "
             width="100px" height="100px">
     </div>
     <h3 class="text-white text-center mt-3 st-fonts">Pawan Kumar</h3>
     <hr class="border-light">
     <!--used to make underline of the image-->
     <nav class="nav text-center flex-column">
-        <a href="/" class="nav-link">Home</a>
-        <a href="/serve/services" class="nav-link">Services</a>
-        <a href="/edu/skill" class="nav-link">Skills</a>
-        <a href="/contact" class="nav-link">Contact</a>
+        <a href="/" class="nav-link {{home}}">Home</a>
+        <a href="/serve/services" class="nav-link {{services}}">Services</a>
+        <a href="/edu/skill" class="nav-link {{skill}}">Skills</a>
+        <a href="/contact" class="nav-link {{contact}}">Contact</a>
     </nav>
-</div> 
+</div>

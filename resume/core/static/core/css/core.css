@@ -11,3 +11,6 @@ html, body{
 .fa-color{
     color:greenyellow;
 }
+a.nav-link{
+    color: white;
+}
